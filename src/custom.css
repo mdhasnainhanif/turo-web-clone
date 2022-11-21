@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.topbar_bg{
+    background-color: #f4f4f4;
+}
+.host_btn{
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 900;
+    outline: none;
+    position: relative;
+    text-align: center;
+    transition: 0.5s all ease;
+    vertical-align: top;
+    white-space: nowrap;
+    font-size: 13px;
+    height: 26px;
+    line-height: 25px;
+    padding: 0 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #414143;
+    color: #414143;
+    height: 27px;
+    margin: 0 12px;
+}
+.host_btn:hover{
+    background-color: #E7E7E8;
+    border-color: #898989;
+    color: #898989;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+}
