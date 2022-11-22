@@ -263,8 +263,7 @@ label{
 ::after{
     font-size: 25px !important;
     color: rgb(75, 75, 75) !important;
-    position: absolute;
-    top: 10px !important;
+    
 }
 
 
@@ -364,7 +363,12 @@ label{
 }
 
 /* Slider 5 */
-
+.meet_heading{
+    font-family: "Freightbold" !important;
+    color: #121214;
+    font-weight: bolder !important;
+    font-size: 51px;
+}
 .Slider5_container{
     max-width: 1024px !important;
 }

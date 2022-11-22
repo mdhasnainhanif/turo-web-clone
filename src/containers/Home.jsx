@@ -9,6 +9,7 @@ import Slider3 from '../components/Slider3';
 import Section4 from '../components/Section4';
 import Slider4 from '../components/Slider4';
 import Slider5 from '../components/Slider5';
+import Faq from '../components/Faq';
 
 
 const Home = () => {
@@ -39,6 +40,7 @@ const Home = () => {
     <Section4/>
     <Slider4/>
     <Slider5/>
+    <Faq/>
     </>
   )
 }

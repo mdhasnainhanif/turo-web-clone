@@ -55,7 +55,7 @@ export const Slider2 = () => {
                       <div className="col-md-6 text-start pt-5">
                         <div className="mt-3 mt-lg-0">
                         <h3 className="fw-bold">
-                            Find the perfect car <span style={{color: "#593CFB"}}>to conquer the great outdoors</span>
+                            Find the perfect car <span style={{color: "#593CFB", fontWeight: "bolder"}}>to conquer the great outdoors</span>
                         </h3>
                         <p>
                         Go prepared in a rugged 4x4 to take on winter roads <br /> with ease, or a camper van to take you to the trees.

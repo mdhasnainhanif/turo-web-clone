@@ -33,7 +33,7 @@ export const Slider3 = () => {
         <div className="container slider3_container">
           <div className="row">
             <div className="col mt-5 pt-5">
-              <h4 className="slider3_heading mt-5 mb-2 fw-blod">
+              <h4 className="slider3_heading mt-5 mb-3 fw-bold">
                  Browse by destination
               </h4>
 

@@ -20,6 +20,7 @@ export const Slider5 = () => {
         <div className="container Slider5_container">
           <div className="row">
             <div className="col mt-5 pt-5">
+            <h1 className="text-center meet_heading mb-3">Meet the hosts</h1>
               <h4 className="Slider5_heading fw-bold mb-3">
               Top hosts on Turo
               </h4>
