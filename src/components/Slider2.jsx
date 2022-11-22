@@ -18,7 +18,7 @@ export const Slider2 = () => {
       <section>
         <div className="container slider2_container">
           <div className="row">
-            <div className="col mt-5">
+            <div className="col mt-5 py-5">
               {/* swiper start*/}
 
               <Swiper

@@ -26,7 +26,7 @@ export const Slider1 = () => {
               <h1 className="text-center slider1_heading mt-5">
                 Find your drive
               </h1>
-              <h3 className="text-center slider1_para mt-2">
+              <h3 className="text-center slider1_para mt-2 mb-3">
                 Explore the world's largest car sharing marketplace
               </h3>
 

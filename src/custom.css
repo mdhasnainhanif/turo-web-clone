@@ -191,17 +191,25 @@ label{
         position: absolute !important;
         left: -90px !important;
     }
+    }
     @media (max-width: 768px) {
         .black4{
-            background-color: #000;
-            color: #fff;
-            padding: 32px 24px;
-            position: absolute;
-            top: 70%;
+            background-color: #000 !important;
+            color: #fff !important;
+            padding: 32px 24px !important;
+            position: absolute !important;
+            top: 70% !important;
             /* left: 10%; */
         }   
-    }
-    
+        .Slider4_container{
+            margin-top: 70px !important;
+        }
+        .slider1_heading{
+            font-size: 40px !important;
+        }
+        .slider1_para{
+            font-size: 20px !important;
+        }
     }
    
 
@@ -347,10 +355,25 @@ label{
 /* slider 4 css start */
 
 .Slider4_container{
-    max-width: 980px !important;
+    max-width: 1024px !important;
 }
 .Slider4_heading{
     font-family: "basisregular";
     color: #121214;
     font-weight: bold !important;
+}
+
+/* Slider 5 */
+
+.Slider5_container{
+    max-width: 1024px !important;
+}
+
+.Slider5_heading{
+        font-family: "basisregular";
+        color: #121214;
+        font-weight: bold !important;
+}
+.text509{
+    font-size: 12px !important;
 }

@@ -33,7 +33,7 @@ export const Slider3 = () => {
         <div className="container slider3_container">
           <div className="row">
             <div className="col mt-5 pt-5">
-              <h4 className="slider3_heading mt-5 fw-blod">
+              <h4 className="slider3_heading mt-5 mb-2 fw-blod">
                  Browse by destination
               </h4>
 
@@ -67,70 +67,70 @@ export const Slider3 = () => {
                 className="mySwiper"
               >
                 <SwiperSlide>
-                    <div className="card box_shadow py-2 ">
+                    <div className="card box_shadow py-2">
                         <img width='80%' className="mx-auto" src={card1} alt="" />
                         <img width='80%' className="mx-auto color_img_1 d-none" src={card1color} alt="" />
                         <h6 className="fw-bold mt-3">Los Angeles</h6>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="card box_shadow py-2 ">
+                    <div className="card box_shadow py-2">
                         <img width='80%' className="mx-auto" src={card2} alt="" />
                         <img width='80%' className="mx-auto color_img_2 d-none" src={card2color} alt="" />
                         <h6 className="fw-bold mt-3">Miami</h6>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="card box_shadow py-2 ">
+                    <div className="card box_shadow py-2">
                         <img width='80%' className="mx-auto" src={card3} alt="" />
                         <img width='80%' className="mx-auto color_img_3 d-none" src={card3color} alt="" />
                         <h6 className="fw-bold mt-3">Honolulu</h6>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="card box_shadow py-2 ">
+                    <div className="card box_shadow py-2">
                         <img width='80%' className="mx-auto" src={card4} alt="" />
                         <img width='80%' className="mx-auto color_img_4 d-none" src={card4color} alt="" />
                         <h6 className="fw-bold mt-3">Denver</h6>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="card box_shadow py-2 ">
+                    <div className="card box_shadow py-2">
                         <img width='80%' className="mx-auto" src={card5} alt="" />
                         <img width='80%' className="mx-auto color_img_5 d-none" src={card5color} alt="" />
                         <h6 className="fw-bold mt-3">London</h6>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="card box_shadow py-2 ">
+                    <div className="card box_shadow py-2">
                         <img width='80%' className="mx-auto" src={card6} alt="" />
                         <img width='80%' className="mx-auto color_img_6 d-none" src={card6color} alt="" />
                         <h6 className="fw-bold mt-3">Toronto</h6>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="card box_shadow py-2 ">
+                    <div className="card box_shadow py-2">
                         <img width='80%' className="mx-auto" src={card7} alt="" />
                         <img width='80%' className="mx-auto color_img_7 d-none" src={card7color} alt="" />
                         <h6 className="fw-bold mt-3">Jersey City</h6>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="card box_shadow py-2 ">
+                    <div className="card box_shadow py-2">
                         <img width='80%' className="mx-auto" src={card8} alt="" />
                         <img width='80%' className="mx-auto color_img_8 d-none" src={card8color} alt="" />
                         <h6 className="fw-bold mt-3">San Francisco</h6>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="card box_shadow py-2 ">
+                    <div className="card box_shadow py-2">
                         <img width='80%' className="mx-auto" src={card9} alt="" />
                         <img width='80%' className="mx-auto color_img_9 d-none" src={card9color} alt="" />
                         <h6 className="fw-bold mt-3">Atlanta</h6>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="card box_shadow py-2 ">
+                    <div className="card box_shadow py-2">
                         <img width='80%' className="mx-auto" src={card10} alt="" />
                         <img width='80%' className="mx-auto color_img_10 d-none" src={card10color} alt="" />
                         <h6 className="fw-bold mt-3">Phoenix</h6>

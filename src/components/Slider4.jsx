@@ -20,7 +20,7 @@ export const Slider4 = () => {
         <div className="container Slider4_container">
           <div className="row">
             <div className="col mt-5 pt-5">
-              <h4 className="Slider4_heading fw-blod">
+              <h4 className="Slider4_heading fw-bold">
               Browse by experience
               </h4>
 

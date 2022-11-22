@@ -8,6 +8,7 @@ import Slider2 from '../components/Slider2';
 import Slider3 from '../components/Slider3';
 import Section4 from '../components/Section4';
 import Slider4 from '../components/Slider4';
+import Slider5 from '../components/Slider5';
 
 
 const Home = () => {
@@ -32,11 +33,12 @@ const Home = () => {
     {/* BANNER END */}
 
 
-    <Slider1 />
-    <Slider2 />
-    <Slider3 />
-    <Section4 />
+    <Slider1/>
+    <Slider2/>
+    <Slider3/>
+    <Section4/>
     <Slider4/>
+    <Slider5/>
     </>
   )
 }
