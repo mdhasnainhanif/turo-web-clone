@@ -66,7 +66,7 @@ export const Faq = () => {
                 </Accordion.Item>
               </Accordion>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 mt-3 mt-md-0">
               <Accordion>
               <Accordion.Item eventKey="4">
                   <Accordion.Header>What happens if I have an accident?</Accordion.Header>

@@ -10,6 +10,7 @@ import Section4 from '../components/Section4';
 import Slider4 from '../components/Slider4';
 import Slider5 from '../components/Slider5';
 import Faq from '../components/Faq';
+import Footer from '../components/Footer';
 
 
 const Home = () => {
@@ -41,6 +42,7 @@ const Home = () => {
     <Slider4/>
     <Slider5/>
     <Faq/>
+    <Footer/>
     </>
   )
 }
