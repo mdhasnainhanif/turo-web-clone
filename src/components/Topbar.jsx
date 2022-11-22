@@ -7,7 +7,7 @@ const Topbar = () => {
         <section className='topbar_bg'>
           <div className="container-fluid">
             <div className="row">
-              <div className="col d-flex text-decoration-underline text-secondary justify-content-center py-3">
+              <div className="col d-flex text-decoration-underline text-secondary justify-content-center py-3 topbar_text">
                 Turo has launched in New York! Tap to explore cars.
               </div>
             </div>

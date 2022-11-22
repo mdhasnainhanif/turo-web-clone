@@ -1,6 +1,19 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: "basisregular";
+}
+@font-face {
+    font-family: "Freightbold";
+    src: url(../src/assets/fonts/FreightText\ Bold.ttf);
+}
+@font-face {
+    font-family: "basis";
+    src: url(../src/assets/fonts/basis-font/FontsFree-Net-BasisGrotesquePro-Bold.ttf);
+}
+@font-face {
+    font-family: "basisregular";
+    src: url(../src/assets/fonts/basis-font/BasisGrotesquePro-Regular.ttf);
 }
 .topbar_bg{
     background-color: #f4f4f4;
@@ -32,4 +45,312 @@
     color: #898989;
     -webkit-text-decoration: none;
     text-decoration: none;
+}
+.head_user_bg{
+    padding: 8px 8px;
+}
+.head_user_bg:hover{
+    background-color: #F4F4F4;
+    padding: 8px 8px;
+}
+.topbar_text{
+    font-size: 16px;
+}
+
+
+
+
+.navbar-toggler{
+    border: none !important;
+    font-size: 18px;
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+.offcanvas.offcanvas-top{
+    height: 100vh !important;
+}
+
+.mob_user_icon{
+    font-size: 25px;
+}
+.dropdown-toggle::after{
+    display: none !important;
+}
+button#dropdown-basic{
+    background-color: #fff !important;
+    border: none;
+}
+.drop_item{
+    padding: 8px 12px !important;
+}
+.drop_item:hover{
+    background-color: #F4F4F4 !important;
+}
+.dropdown-menu.show{
+    width: 340px !important;
+}
+
+
+
+
+
+/*---------- banner css start -----------*/
+
+
+.banner_bg{
+    background: url(../src/assets/images/banner.jpg);
+    height: 400px;
+}
+
+/* search css start */
+
+.search_container{
+    max-width: 980px !important;
+}
+.search_row{
+    border-radius: 35px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 14%);
+}
+label{
+    font-size: 12px;
+}
+input{
+    border: none;
+    outline: none;
+}
+.search_first{
+    border-right: 1px solid rgb(175, 175, 175);
+}
+.search_second{
+    border-right: 1px solid rgb(175, 175, 175);
+}
+.search_icon_div{
+    background-color: #593CFB;
+    border-radius: 58%;
+    width: 46px;
+    height: 46px;
+    margin-left: 17px;
+}
+.search_icon{
+    font-size: 22px;
+}
+label{
+    color: #000;
+    font-weight: 600;
+}
+
+
+
+/*--------------- Media Query  ----------------*/
+
+@media (max-width: 425px) {
+    .topbar_text{
+        font-size: 13px !important;
+    }
+}
+@media (max-width: 992px) {
+    .search_icon_div{
+        display: none !important;
+    }
+    .search_first{
+        border-right: none !important;
+        border-bottom: 1px solid rgb(175, 175, 175);
+    }
+    .search_second{
+        border-right: none !important;
+        border-bottom: 1px solid rgb(175, 175, 175);
+    }
+    .search_row{
+        border-radius: 8px;
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 14%);
+    }
+}
+
+@media (min-width: 768px) {
+    .section4_section{
+        padding-left: 112px;
+        display: block;
+    }
+    .black4{
+        max-width: 360px;
+        padding: 32px 24px;
+        margin: 0 0 0 24px;
+        width: 944px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        background-color: #000 !important;
+        color: #fff;
+        max-width: 390px;
+        position: absolute !important;
+        left: -90px !important;
+    }
+    @media (max-width: 768px) {
+        .black4{
+            background-color: #000;
+            color: #fff;
+            padding: 32px 24px;
+            position: absolute;
+            top: 70%;
+            /* left: 10%; */
+        }   
+    }
+    
+    }
+   
+
+.search_car_btn{
+    background: #593CFB;
+    border: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-weight: bold;
+    height: 44px;
+    line-height: 43px;
+    margin-top: 7px;
+    outline: 0;
+}
+
+
+/* silder1 css start */
+
+.slider1_container{
+    max-width: 1024px !important;
+}
+.slider1_heading{
+    font-family: "Freightbold";
+    font-size: 90px;
+    color: #121214;
+    font-weight: bolder !important;
+}
+.slider1_para{
+    font-family: "basis";
+    color: #121214;
+    font-size: 28px;
+    font-weight: bolder !important;
+}
+
+
+/* swiper css*/
+.swiper{
+    position: relative !important;
+    /* margin-top: 50px !important; */
+}
+.swiper-pagination{
+    display: none;
+}
+.box_shadow{
+    box-shadow: 0 2px 4px 0 rgb(35 31 32 / 20%), 0 0 1px 0 rgb(35 31 32 / 10%) !important;
+}
+.card{
+    max-width: 320px !important;
+}
+::after{
+    font-size: 25px !important;
+    color: rgb(75, 75, 75) !important;
+    position: absolute;
+    top: 10px !important;
+}
+
+
+/* slider2 section css start */
+
+.slider2_container{
+    max-width: 1024px !important;
+}
+.slide2_btn{
+    height: 50px;
+    line-height: 49px;
+    padding: 0 18px;
+    text-align: center;
+    vertical-align: top;
+    background-color: #593CFB;
+    border: 1px solid #593CFB;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: none !important;
+    height: none !important;
+    object-fit: cover;
+}
+
+
+/* slider2 section css end */
+
+
+/* slider3 section css start*/
+
+
+.slider3_container{
+    max-width: 1024px !important;
+}
+.slider3_heading{
+    font-weight: bold;
+    font-family: "basis";
+}
+
+/* section 4 css start */
+
+.section4_section{
+    max-width: 1024px !important;
+    margin: 0 auto !important;
+}
+.section4_container{
+    max-width: 1024px !important;
+    background: url(../src/assets/images/section3-image/banner.webp);
+    height: 496px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    width: 944px;
+    position: relative;
+}
+.section4_heading{
+    font-family: "Freightbold";
+    font-size: 51px;
+    color: #121214;
+    font-weight: bolder !important;
+}
+.section4_para{
+    font-family: "basisregular";
+    color: #121214;
+    font-weight: none !important;
+}
+.featured_text{
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.section4_btn{
+    background: #593CFB;
+    border: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    height: 44px;
+    margin-top: 7px;
+    outline: 0;
+    letter-spacing: 2px;
+    padding: 0px 10px;
+}
+
+/* slider 4 css start */
+
+.Slider4_container{
+    max-width: 980px !important;
+}
+.Slider4_heading{
+    font-family: "basisregular";
+    color: #121214;
+    font-weight: bold !important;
 }
