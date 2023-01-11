@@ -28,7 +28,16 @@ import card10color from '../assets/images/slider3-images/card10-color.png'
 
 export const Slider3 = () => {
 
-  const [hover, setHover] = useState(false);
+  const [hover1, setHover1] = useState(false);
+  const [hover2, setHover2] = useState(false);
+  const [hover3, setHover3] = useState(false);
+  const [hover4, setHover4] = useState(false);
+  const [hover5, setHover5] = useState(false);
+  const [hover6, setHover6] = useState(false);
+  const [hover7, setHover7] = useState(false);
+  const [hover8, setHover8] = useState(false);
+  const [hover9, setHover9] = useState(false);
+  const [hover10, setHover10] = useState(false);
   
 
   return (
@@ -72,70 +81,70 @@ export const Slider3 = () => {
               >
                 <SwiperSlide>
                     <div className="card box_shadow py-2">
-                        <img width='80%' className="mx-auto" src={hover ? card1color : card1} alt="" onMouseEnter={()=>setHover(true)} onMouseLeave={()=>setHover(false)} />
+                        <img width='80%' className="mx-auto" src={hover1 ? card1color : card1} alt="" onMouseEnter={()=>setHover1(true)} onMouseLeave={()=>setHover1(false)} />
                         {/* <img width='80%' className="mx-auto color_img_1 d-none" src={card1color} alt="" /> */}
-                        <h6 className="fw-bold mt-3">Los Angeles</h6>
+                        <h6 className="fw-bold mt-3">Los Angeles</h6> 
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="card box_shadow py-2">
-                        <img width='80%' className="mx-auto" src={card2} alt="" />
+                        <img width='80%' className="mx-auto" src={hover2 ? card2color : card2} alt="" onMouseEnter={()=>setHover2(true)} onMouseLeave={()=>setHover2(false)} />
                         <img width='80%' className="mx-auto color_img_2 d-none" src={card2color} alt="" />
                         <h6 className="fw-bold mt-3">Miami</h6>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="card box_shadow py-2">
-                        <img width='80%' className="mx-auto" src={card3} alt="" />
-                        <img width='80%' className="mx-auto color_img_3 d-none" src={card3color} alt="" />
+                        <img width='80%' className="mx-auto" src={hover3 ? card3color : card3} onMouseEnter={()=>setHover3(true)} onMouseLeave={()=>setHover3(false)} alt="" />
+                        {/* <img width='80%' className="mx-auto color_img_3 d-none" src={card3color} alt="" /> */}
                         <h6 className="fw-bold mt-3">Honolulu</h6>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="card box_shadow py-2">
-                        <img width='80%' className="mx-auto" src={card4} alt="" />
-                        <img width='80%' className="mx-auto color_img_4 d-none" src={card4color} alt="" />
+                        <img width='80%' className="mx-auto" src={hover4 ? card4color : card4} onMouseEnter={()=>setHover4(true)} onMouseLeave={()=>setHover4(false)} alt="" />
+                        {/* <img width='80%' className="mx-auto color_img_4 d-none" src={card4color} alt="" /> */}
                         <h6 className="fw-bold mt-3">Denver</h6>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="card box_shadow py-2">
-                        <img width='80%' className="mx-auto" src={card5} alt="" />
-                        <img width='80%' className="mx-auto color_img_5 d-none" src={card5color} alt="" />
+                        <img width='80%' className="mx-auto" src={hover5 ? card5color : card5} onMouseEnter={()=>setHover5(true)} onMouseLeave={()=>setHover5(false)} alt="" />
+                        {/* <img width='80%' className="mx-auto color_img_5 d-none" src={card5color} alt="" /> */}
                         <h6 className="fw-bold mt-3">London</h6>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="card box_shadow py-2">
-                        <img width='80%' className="mx-auto" src={card6} alt="" />
-                        <img width='80%' className="mx-auto color_img_6 d-none" src={card6color} alt="" />
+                        <img width='80%' className="mx-auto" src={hover6 ? card6color : card6} onMouseEnter={()=>setHover6(true)} onMouseLeave={()=>setHover6(false)} alt="" />
+                        {/* <img width='80%' className="mx-auto color_img_6 d-none" src={card6color} alt="" /> */}
                         <h6 className="fw-bold mt-3">Toronto</h6>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="card box_shadow py-2">
-                        <img width='80%' className="mx-auto" src={card7} alt="" />
-                        <img width='80%' className="mx-auto color_img_7 d-none" src={card7color} alt="" />
+                        <img width='80%' className="mx-auto" src={hover7 ? card7color : card7} onMouseEnter={()=>setHover7(true)} onMouseLeave={()=>setHover7(false)} alt="" />
+                        {/* <img width='80%' className="mx-auto color_img_7 d-none" src={card7color} alt="" /> */}
                         <h6 className="fw-bold mt-3">Jersey City</h6>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="card box_shadow py-2">
-                        <img width='80%' className="mx-auto" src={card8} alt="" />
-                        <img width='80%' className="mx-auto color_img_8 d-none" src={card8color} alt="" />
+                        <img width='80%' className="mx-auto" src={hover8 ? card8color : card8} onMouseEnter={()=>setHover8(true)} onMouseLeave={()=>setHover8(false)} alt="" />
+                        {/* <img width='80%' className="mx-auto color_img_8 d-none" src={card8color} alt="" /> */}
                         <h6 className="fw-bold mt-3">San Francisco</h6>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="card box_shadow py-2">
-                        <img width='80%' className="mx-auto" src={card9} alt="" />
+                        <img width='80%' className="mx-auto" src={hover9 ? card9color : card9} onMouseEnter={()=>setHover9(true)} onMouseLeave={()=>setHover9(false)} alt="" />
                         <img width='80%' className="mx-auto color_img_9 d-none" src={card9color} alt="" />
                         <h6 className="fw-bold mt-3">Atlanta</h6>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="card box_shadow py-2">
-                        <img width='80%' className="mx-auto" src={card10} alt="" />
+                        <img width='80%' className="mx-auto" src={hover10 ? card10color : card10} onMouseEnter={()=>setHover10(true)} onMouseLeave={()=>setHover10(false)} alt="" />
                         <img width='80%' className="mx-auto color_img_10 d-none" src={card10color} alt="" />
                         <h6 className="fw-bold mt-3">Phoenix</h6>
                     </div>
