@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -27,6 +27,10 @@ import card9color from '../assets/images/slider3-images/card9-color.png'
 import card10color from '../assets/images/slider3-images/card10-color.png'
 
 export const Slider3 = () => {
+
+  const [hover, setHover] = useState(false);
+  
+
   return (
     <>
       <section>
@@ -68,8 +72,8 @@ export const Slider3 = () => {
               >
                 <SwiperSlide>
                     <div className="card box_shadow py-2">
-                        <img width='80%' className="mx-auto" src={card1} alt="" />
-                        <img width='80%' className="mx-auto color_img_1 d-none" src={card1color} alt="" />
+                        <img width='80%' className="mx-auto" src={hover ? card1color : card1} alt="" onMouseEnter={()=>setHover(true)} onMouseLeave={()=>setHover(false)} />
+                        {/* <img width='80%' className="mx-auto color_img_1 d-none" src={card1color} alt="" /> */}
                         <h6 className="fw-bold mt-3">Los Angeles</h6>
                     </div>
                 </SwiperSlide>
