@@ -485,3 +485,6 @@ label{
 .card1img:hover{
     border: 2px solid red;
 }
+.slide3img:hover{
+    cursor: pointer;
+}
